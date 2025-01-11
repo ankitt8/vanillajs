@@ -1,0 +1,31 @@
+<html5>
+    <head>
+        <style>
+            .progressbarContainer {
+                width: 100%;
+                background: white;
+                border: 1px solid white;
+            }
+            .progressbar {
+
+                height: 20px;
+                width: 0;
+                animation: progressui 10s;
+                background: blue;
+                animation-fill-mode: forwards;
+            }
+            @keyframes progressui {
+                from {
+                    width: 0px;
+                }
+                to {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <button id="startBtn">Start</button>
+    <script src="./script.js"></script>
+    </body>
+</html5>

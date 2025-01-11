@@ -1,0 +1,39 @@
+/* snippet 1 */
+/* .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.toggleBtn {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.toggleBtn:active {
+  transform: scale(0.9);
+} */
+
+
+/* snippet 2 */
+.box {
+  width: 100px;
+  background-color: black;
+  height: 20px;
+  
+}
+.box:hover {
+  background-color: blue;
+  transform: translateX(200px);
+  animation: move 3s ease-in-out forwards;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
