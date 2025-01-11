@@ -1,0 +1,46 @@
+.container button {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container button {
+
+    margin: 100px;
+}
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.closeModalButton {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    display: flex;
+}

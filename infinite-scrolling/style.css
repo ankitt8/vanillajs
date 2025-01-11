@@ -1,0 +1,17 @@
+.infinite-scrolling-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.row {
+      border: 1px solid red;
+      padding: 50px;
+    }
+
+    .observer-target {
+      opacity: 0;
+    }
+
+    .focused {
+      background-color: blue;
+    }
